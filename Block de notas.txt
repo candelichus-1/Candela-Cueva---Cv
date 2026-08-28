@@ -1,0 +1,25 @@
+Candela A. Cueva
+
+Encabezado (header)
+-imagen foto (img)
+-menú de navegación: (nav)
+-- inicio (a)
+-- contacto (a)
+-- experiencia (a)
+-- idiomas (a)
+-- formación (a)
+-- herramientas(a)
+
+Contenido (inicio) (main)
+-Candela A. Cueva (h1)
+-Curriculum Vitae (h2)
+-Lic. en Marketing Digital y Lic. en Comunicación Visual (h3)
+-Soy una persona organizada, proactiva y responsable. Especialista en gestión de redes sociales con experiencia en administración de cuentas, creación de estrategia para ventas y ejecución de campañas publicitarias, incorporando mi enfoque creativo y visual a los proyectos. Apasionada por el entorno digital, contribuyo al crecimiento de presencia online de marcas. (p)
+-imagen foto 2
+
+Pie de página (footer)
+-Candela A. Cueva (p)
+-Contacto: (ul)
+--Instagram (li)
+--Teléfono (li)
+--Gmail (li)

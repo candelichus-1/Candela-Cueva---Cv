@@ -1,0 +1,75 @@
+/* css document */
+@charset "utf-8";
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(fuentes/Poppins-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Italic";
+    src: url(fuentes/Poppins-Italic.ttf) format(truetype);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(fuentes/Poppins-Bold.ttf) format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-BoldItalic";
+    src: url(fuentes/Poppins-BoldItalic.ttf) format(truetype);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Tan-mon-cheri";
+    src: url(fuentes/tan-mon-cheri.woff) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Poppins-Regular", sans-serif;
+    text-align: left;
+    background-color: #ebe8df;
+}
+
+h1 {
+    font-family: 'Tan-mon-cheri', sans-serif;
+    color: rgb(85, 8, 8);
+}
+
+h2 {
+    font-family: 'Poppins-BoldItalic', sans-serif;
+}
+
+h3 {
+    font-family: 'Poppins-Italic', sans-serif;
+    color: rgb(85, 8, 8);
+}
+
+p {
+    font-family: 'Ppoppins-Regular', sans-serif;
+}
+
+a {
+    font-family: 'Poppins-BoldItalic', sans-serif;
+    color: black;
+}
+
+ul {
+    font-family: 'Poppins-Regular', sans-serif;
+}
+
+tittle {
+    font-family: 'Poppins-Bold', sans-serif;
+    color: rgb(85, 8, 8);
+}
