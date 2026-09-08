@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mi CV</title>
         <link href="https://fonts.googleapis.com/css2?family=Mon+Cherie&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./estilo.css">
@@ -20,20 +19,25 @@
             </nav>
         </header>
         <main>
+<!-- SECCIÓN 00: BIENVENIDA -->
             <section class="bienvenida">
                 <div class="presentacion" id="inicio">
                     <p class="etiqueta">CURRICULUM VITAE</p>
                     <h1>Candela A. Cueva</h1>
                     <h2>Estudiante de Diseño Gráfico y Comunicación Visual</h2>
-                    <p>Buenos Aires, Argentina · Lanus</p>
+                    <p>Buenos Aires, Argentina· Lanus</p>
                     <p class="frase">"Ideas que comunican"</p>
                 </div>
                 <article id= "columna-foto">
                     <img src="img/foto-perfil.jpg" alt="fotografía curriculum" width="200" height="200"/>
                 </article>
-            </section>    
+            </section>
+
+<!-- SECCIÓN 01: PERFIL -->    
             <section id="perfil" class="sobre">
-                <div class="numero">01.</div>
+                <div class="numero">
+                    <h3>01.</h3>
+                </div>
                 <div class="sobre-contenido">
                     <h2>Sobre mí</h2>
                     <p> Soy una persona organizada, proactiva y responsable.
@@ -42,17 +46,26 @@
                 </div>
                 <div class="info-personal">
                     <h3>Información personal</h3>
-                    <p><strong>Edad</strong><br>23 años</p>
-                    <p><strong>Ubicación</strong><br>Buenos Aires, Argentina</p>
-                    <p><strong>Email</strong><br>candelacueva@yahoo.com</p>
+                    <h4>Edad</h4>
+                    <p>23 años</p>
+                    <h4>Ubicación</h4>
+                    <p>Buenos Aires, Argentina</p>
+                    <h4>Email</h4>
+                    <p>candelacueva@yahoo.com</p>
                 </div>
             </section>
+
+<!-- SECCIÓN 02: EXPERIENCIA -->
             <section id="experiencia" class="experiencia">
-                <div class="numero">02.</div>
-                <div class="experiencia-contenido">
-                    <h2>Experiencia</h2>
-                    <h3>Community Manager y Diseñadora</h3>
-                    <p>Experiencia en gestión de redes sociales, creación de contenido y desarrollo de piezas gráficas para diferentes proyectos y marcas.</p>
+                <div class="experiencia-texto">
+                    <div class="numero">
+                        <h3>02.</h3>
+                    </div>
+                    <div class="experiencia-contenido">
+                        <h2>Experiencia</h2>
+                        <h3>Community Manager y Diseñadora</h3>
+                        <p>Experiencia en gestión de redes sociales, creación de contenido y desarrollo de piezas gráficas para diferentes proyectos y marcas.</p>
+                    </div>
                 </div>
                 <div class="experiencia-items">
                     <div>
@@ -71,18 +84,26 @@
             </section>
 
 <!-- SECCIÓN 03: HABILIDADES -->
-            <section id="habilidades" class="bloque-borgona">
+            <section id="habilidades" class="bloque-habilidad">
                 <div class="habilidades">
-                    <div class="numero">03.</div>
-                    <div>
+                    <div class="numero">
+                        <h3>03.</h3>
                         <h2>Habilidades</h2>
+                    </div>
+                    <div>
                         <div class="habilidades-lista">
-                            <span>Diseño gráfico</span>
-                            <span>Diseño para redes</span>
-                            <span>Community Management</span>
-                            <span>Identidad visual</span>
-                            <span>Creación de contenido</span>
-                            <span>Comunicación visual</span>
+                            <div class="columnas">
+                                <li>Diseño gráfico</li>
+                                <li>Diseño para redes</li>
+                            </div>
+                            <div class="columnas">
+                                <li>Community Management</li>
+                                <li>Identidad visual</li>
+                            </div>
+                            <div class="columnas">
+                                <li>Creación de contenido</li>
+                                <li>Comunicación visual</li>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -91,39 +112,46 @@
 <!-- SECCIÓN 04: FORMACIÓN E IDIOMAS -->
             <section id="formacion" class="bloque-borgona">
                 <div class="formacion">
-                    <div class="numero">04.</div>
-                    <div class="formacion-contenido">
-                        <h2>Formación</h2>
-                        <div class="lista-estudios">
-                            <div class="estudio">
-                                <h3>Bachiller en Ciencias Sociales</h3>
-                                <p>2020 | Instituto Norland de Lanús</p>
-                            </div>
-                            <div class="estudio">
-                                <h3>Lic. en Psicología</h3>
-                                <p>2021 - 2023 | Universidad de Buenos Aires (UBA)</p>
-                            </div>
-                            <div class="estudio">
-                                <h3>Diplomatura Marketing Digital y Community Management</h3>
-                                <p>2023 | Universidad de Ciencias Empresariales y Sociales (UCES)</p>
-                            </div>
-                            <div class="estudio">
-                                <h3>Lic. Diseño y Comunicación Visual</h3>
-                                <p>2024 - Actualidad | Universidad Nacional de Lanús (UNLa)</p>
+                    <article>
+                        <div class="numero">
+                            <h3>04.</h3>
+                            <h2>Formación</h2>
+                        </div>
+                        <div class="formacion-contenido">
+                            <div class="lista-estudios">
+                                <div class="estudio">
+                                    <h3>Bachiller en Ciencias Sociales</h3>
+                                    <p>2020 | Instituto Norland de Lanús</p>
+                                </div>
+                                <div class="estudio">
+                                    <h3>Lic. en Psicología</h3>
+                                    <p>2021 - 2023 | Universidad de Buenos Aires (UBA)</p>
+                                </div>
+                                <div class="estudio">
+                                    <h3>Diplomatura Marketing Digital y Community Management</h3>
+                                    <p>2023 | Universidad de Ciencias Empresariales y Sociales (UCES)</p>
+                                </div>
+                                <div class="estudio">
+                                    <h3>Lic. Diseño y Comunicación Visual</h3>
+                                    <p>2024 - Actualidad | Universidad Nacional de Lanús (UNLa)</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="info-personal">
-                        <h3>Idiomas</h3>
-                        <div class="info-item">
-                            <span class="etiqueta">Ingles: intermedio</span> 
+                    </article>
+                    <article>
+                        <div class="info-personal">
+                            <h3>Idiomas</h3>
+                            <div class="info-item">
+                                <li class="etiqueta">Ingles: intermedio</li> 
+                            </div>
+                            <div class="info-item">
+                                <li class="etiqueta">Portugues: basico</li>
+                            </div>
                         </div>
-                        <div class="info-item">
-                            <span class="etiqueta">Portugues: basico</span>
-                        </div>
-                    </div>
+                    </article>
                 </div>
             </section>
+<!-- SECCIÓN 05: CONTACTO -->
             <section class="llamame">  
                 <article id="contacto" class="contacto-tarjeta">
                     <div class="contacto-cuerpo">
@@ -141,15 +169,15 @@
         <footer>
             <div class="contacto-enlaces">
                 <div class="contacto-item">
-                    <span>INSTAGRAM</span>
+                    <li>INSTAGRAM</li>
                     <a href="https://instagram.com/candee_cueva" target="_blank">@candee_cueva</a>
                 </div>
                 <div class="contacto-item">
-                    <span>EMAIL</span>
+                    <li>EMAIL</li>
                     <p class="email-texto">candelacueva@yahoo.com</p>
                  </div>
                 <div class="contacto-item">
-                    <span>LINKEDIN</span>
+                    <li>LINKEDIN</li>
                     <a href="https://linkedin.com" target="_blank">Candela Cueva</a>
                     </div>
                 </div> 
